@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Karla:wght@800&family=League+Gothic&family=Sedgwick+Ave&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding: 12rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: 273549;
+  padding: 50px;
+  border-radius: 5px;
+  color: white;
+  max-height: 350px;
+  max-width: 350px;
+}
+h2 {
+  font-family: 'Karla', sans-serif;
+  line-height: 28px;
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+.green {
+  color: 4ADF86;
+}
+p {
+  font-family: 'Inter', sans-serif;
+  font-size: small;
+  color: rgb(203, 211, 223);
+  margin-bottom: 30px;
+}
+.green-btn {
+  background-color: 10B981;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  max-width: 150px;
+  margin-top: 24px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.green-btn:hover {
+  background-color: rgb(76, 225, 155);
+  box-shadow: 0 0 5px rgb(76, 225, 155), 0 0 20px rgb(76 255 155 / 0.9),
+    0 0 35px rgb(76 255 155 / 0.7), 0 0 50px rgb(76 255 155 / 0.6);
+}
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #d5d4d8;
+  background-color: rgb(93, 93, 107);
+}
+.one-gen {
+  padding: 10px;
+  border: none;
+  margin-right: 10px;
+  border-radius: 5px;
+  background-color: rgb(78, 78, 88);
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #5def92;
+  border-radius: 6px;
+}
+.passgen {
+  display: flex;
+  margin-right: 50px;
+}
